@@ -1,0 +1,69 @@
+/* ******************Tag Selectors****************** */
+
+body/*img,h1,h2,h3,h4,..,hr,any tag in html*/
+{
+    background-color: required color;/*Colors the background of the body in this color*/
+    color:required color; /*Colors the whole body with the color to the text,used for font color in heading tag*/
+    border-style:dashed;/*gives style to the border ,can be dashed,dotted,etc.
+                            If one value,then to all sides.
+                            If 2 values,then one to top&bottom,second to left&right.
+                            If 3 ,then top,left&bottom and then bottom.
+                            If 4,then all four sides in clockwise order.*/
+    border-radius:percentage;/*Sys about how rounded the tag should be*/
+    border-top:size color attributeLikeDashed,etc ;/*similarly for border-left,right,bottom*/
+    border-width:pixels;/*Thickness of the border/size of the dots if it is dotted*/
+    height:height of the attrbute;/*here,it is height of the body*/
+    width:pixels or percentage;/*Extent in the page to which this selector must cover*/
+}
+
+/*We can also refer ot different selectors of the same attribute by using classes and id's
+  We write these inside html tags,like 
+  <img id="image1" src="link" > or <img class="image1" src="link" >
+  each tag can have more than one class but only ONE id
+  id's of one name can be used only once while classes of one name can be used as many times as we want to treat a specific set of elements in the same way
+  */
+/* 
+  <div>
+    <h1>This is a div tag,used to group together similar elements and apply the same style changes to them</h1>
+</div> */
+
+
+  #image1/*We refer to ids like this*/
+  {
+    background-color:white;
+    /*usual css stuff*/
+  }
+
+  .image1/*we refer to classes like this*/
+  {
+    background-color: hehe;
+    /*normal css code*/
+  }
+
+  body:hover{
+    background-color: yellow;
+  }
+  /* here ,  :hover is a pseudo class.Every pseudo class starts with a colon and is responsible
+      for dynamically changing stuff in our website.It is used by taking into account the different states of an html site*/
+
+/****************************CSS DISPLAY**************************/
+
+/*There are 3 types of display elements:Block: like headers,paragraphs,etc which block the whole row ,BUT we can change their width
+display:block;   display:inline         InLine: like images,anchro tags,which take up only the space required,BUT we can't change their width
+                 display:inline-block   InLine-Block : we can change width AND they behave like inline,displaying in the same row next to each other
+                                        None: makes the element disappear as if it never existed(Not to be confused with visibility which just makes it invisible but the other tags behave as if it is still there)
+                                        */
+/* 
+<span></span> is used to separately highlight text INSIDE another tag and we can separately style it by adding a Class/iD to it. */
+
+/*POSITIONING*/
+
+/* WE CAN USE 
+RELATIVE : position:relative;
+           then,if we need to move the element to one direction,we specify the other direction and the value.right:200px; will move the element 200px from where it used to be,to the left.
+ABSOLUTE: position:absolute;
+          then,give the same direction of flow as the direction needed in the command. right:200px; moves the element to a place 200px away from the right side of the page. */
+
+body{
+  font-family:Verdana,sans-serif;
+}

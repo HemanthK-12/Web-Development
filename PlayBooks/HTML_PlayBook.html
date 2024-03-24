@@ -1,0 +1,161 @@
+<h1>Heading 1</h1>
+<h1 bgcolor="#990000">Heading 1.5</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<br><!-- This is tag for line break or space between lines-->
+
+<hr> <!-- To add horizontal lines-->
+<hr size="5" noshade> <!-- Makes line of thickness 5 px without shade-->
+<hr size="5" >
+
+<center></center><!-- To center text,deprecated now,instead use this-->
+<div style="text-align:center">
+
+    <h1>This is Centered Text</h1>
+
+</div>
+
+<!-- BOILERPLATE CODE--><!-- CLICK !+Tab for this -->
+<!DOCTYPE html>  <!-- This is to specify which type of HTML is used-->
+<html lang="en"> <!-- Tells that from now,everything is HTML code-->
+<head> <!-- This part talks to browser and has website info -->
+    <meta charset="UTF-8"><!-- says that all text is encoded with UTF-8 encoding system,i,e, Unicode.More chances of comaptibility-->
+    <!--
+        Can also include:
+
+        <meta name="author" content="This text appears when browser asks for author of code" />
+
+        <meta name="description" content="This text appears below the link when search engine displays your website" />
+        
+        <meta property="og:image" content="link of image you want when pasting link" />
+        <meta property="og:description" content="text you want whne pasting link" />
+
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="p1.js"></script>
+    <title>Document</title> <!-- Displays "Document" on browser tab-->
+</head>
+<body>
+    <!-- We can also write <body style="background-color:COLOR YOU WANT;> to add a bit of css into this"-->
+</body>
+</html>
+<!-- /BOILERPLATE CODE-->
+
+<p><!-- This is a paragraph tag,used to write normal texts -->
+    This is <strong>bold</strong> tag and this is <em>italics</em> tag,to make the text strong and to give emphasis,respectively.
+</p> 
+
+<ul><!--Unordered Lists-->
+    <li>1st point</li>
+    <li>2nd point</li>
+    <ul>
+        <li>2.1 point</li>
+        <ul>
+            <li>2.1.1 point</li>
+            <li>2.1.2 point</li>
+        </ul>
+        <li>2.2 point</li>
+    </ul>
+</ul>
+
+<ol><!-- Ordered Lists-->
+    <li>Number 1 point</li>
+    <ol type="i">
+        <li>Roman 1 point</li>
+        <ul>
+            <li>Unordered Point 1</li>
+            <li>Unordered point 2</li>
+        </ul>
+        <li>Roman 2 point</li>
+    </ol>
+    <li>Number 2 point</li>
+</ol>
+
+<img src="Link of the image to display on website" alt="Text to display if website doesn't render the image">
+<br>
+<a href="Link or name of image in directory" target="blank"><strong>Text to make hyperlink</strong></a>
+<!-- target="blank" makes the hyperlink open in a new tab-->
+<br>
+<div contentEditable="true" spellcheck="FALSE"></div>
+<table cellspacing="20"><!-- write <table border="pixels"> for getting borders in each row and column-->
+    <thead>
+        <tr>
+        <th>1st Column's Heading</th><th>2nd Column's Heading</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1st row 1st column</td><td>1st row 2nd column</td>
+        </tr>
+        <tr>
+            <td>2nd row 1st column</td><td>2nd row 2nd column</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <th>1st column footer</th><th>2nd Column footer</th>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- You can use tables for layout by keeping image elements in one block and text in another adjacent block to allow structuring-->
+
+
+<form class="" action="name of the file you want to open/mailto:email_address" method="post" enctype="text/plain" >
+    <label>TextBox</label>
+    <input type="text" name="" value="">
+    <br>
+    <label>Color Picker</label>
+    <input type="color" name="" value="">
+    <br>
+    <label>Button</label>
+    <input type="button" name="" value="">
+    <br>
+    <label>CheckBox</label>
+    <input type="checkbox" name="" value="">
+    <br>
+    <label>Password</label>
+    <input type="password" name="" value="">
+    <br>
+    <label>Submit </label>
+    <input type="submit" name="" value="">
+    <br>
+    <label>Radio Button</label>
+    <input type="radio" name="" value="">
+    <br>
+    <label>Search</label>
+    <input type="search" name="" value="">
+    <br>
+    <label>Range</label>
+    <input type="range" name="" value="">
+    <br>
+    <label>Number Input</label>
+    <input type="number" name="" value="">
+    <br>
+    <label>File Upload</label>
+    <input type="file" name="" value="">
+    <br>
+    <label>Time Picker</label>
+    <input type="time" name="" value="">
+    <br>
+    <label>Date</label>
+    <input type="date" name="" value="">
+    <br>
+    <label>TextArea</label>
+    <textarea name="name" rows="no.ofrows" cols="no.of columns" ></textarea>
+
+
+</form>
+
+<div>
+    <h1>This is a div tag,used to group together similar elements and apply the same style changes to them</h1>
+</div>
+
+
+<span>This is a span tag and is used to separately highlight text INSIDE another tag and we can separately style it by adding a Class/iD to it.</span> 
+
+
