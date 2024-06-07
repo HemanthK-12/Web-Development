@@ -1,4 +1,4 @@
-grade=prompt("Enter ypur marks")
+let grade=prompt("Enter your marks")
 
 if(grade<=100 && grade>=80){
     console.log("A")
