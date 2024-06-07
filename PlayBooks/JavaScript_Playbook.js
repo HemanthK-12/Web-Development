@@ -16,7 +16,7 @@ height="Hello"
 console.log(height);
 //Prints 100 and 200 in the next line but throws error as var and let both are there.
 
-const weight="Less"; // This is right,you can't re-declare weight="More" or some thing
+const weight="Less"; // This is right;afterwards,you can't re-declare weight="More" or some thing
 /*
 const heeight;
 heeight=3; 
