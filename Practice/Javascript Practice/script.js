@@ -1,17 +1,15 @@
-let grade=prompt("Enter your marks")
+let digits=prompt("Welcoe to the Guessing Game! Type the number of digits in the number you want to guess");
+let number=prompt("Guess the number which I'm thinking!");
+let random=Math.ceil(Math.random()*(10**(digits))+1);
 
-if(grade<=100 && grade>=80){
-    console.log("A")
-}
-else if(grade<=89 && grade>=70){
-    console.log("B")
-}
-else if(grade<=69 && grade>=60){
-    console.log("C")
-}
-else if(grade<=59 && grade>=50){
-    console.log("D")
-}
-else if(grade<=49 && grade>=0){
-    console.log("F")
-}
+while(true)
+    {
+        if(number!=random)
+            number=prompt("No,Try again");
+        else
+            {
+                alert("Congratulations! You have guessed the number correctly!");
+                break;
+            }
+
+    }
