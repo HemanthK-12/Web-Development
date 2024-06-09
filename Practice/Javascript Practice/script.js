@@ -1,9 +1,20 @@
-let str=prompt("Enter the elements of the array separated by commas");
-arr=str.split(",");
-
-let newArr=arr.filter((x)=>{
-    return (x>90);
-})
-
-str=newArr.join(",");
-console.log(str);
+let n=prompt("Enter a number");
+let str=prompt("Enter n elements");
+let arr=str.split(",").map(Number);
+let total=0,pro=1;
+total=arr.reduce
+    (
+        (total,num)=>
+            {
+                return total+num;
+            }
+    )
+console.log(`Total = ${total}`);
+pro=arr.reduce
+    (
+        (pro,num)=>
+            {
+                return pro*num;
+            }
+    )
+console.log(`Product = ${pro}`);
