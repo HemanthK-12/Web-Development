@@ -1,6 +1,9 @@
-str=prompt("Enter the elements of the array separated by commas");
+let str=prompt("Enter the elements of the array separated by commas");
 arr=str.split(",");
 
-arr.forEach((x)=>{
-    console.log(x**2);
+let newArr=arr.filter((x)=>{
+    return (x>90);
 })
+
+str=newArr.join(",");
+console.log(str);
