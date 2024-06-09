@@ -1,4 +1,4 @@
-function numberVowels(x)
+const numberVowels=(x)=>
 {
     let vowels="aeiouAEIOU";
     let n=0;
