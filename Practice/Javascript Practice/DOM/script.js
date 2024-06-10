@@ -1,7 +1,6 @@
-let divCollection=document.querySelectorAll("div");
+let div=document.querySelector("div");
 
-divCollection[0].innerText="Hiii";
-divCollection[1].innerText="Hello";
-divCollection[2].innerText="How are You?";
+let class_=div.getAttribute("class");
 
-console.log(divCollection);
+console.dir(class_);
+console.log(class_);
