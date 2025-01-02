@@ -330,3 +330,56 @@ element.addEventListener("<event type>", <callback function>);
 
 
 const hello=document.getElementById("id declared in the html tags of an element");
+
+//callback hell
+function getData(data,nextdata)
+{
+  setTimeout
+  (
+    ()=>
+    {
+      console.log("Data i received is : ",data);
+      if(nextdata)
+        nextdata();
+    }
+  ,1000);
+}
+
+getData
+(1,()=>
+      {
+        getData
+        (2,()=>
+              {
+                getData
+                (3,()=>
+                      {
+                        getData
+                        (4,()=>
+                              {
+                                getData
+                                (5,()=>
+                                      {
+                                        getData
+                                        (6,()=>
+                                              {
+                                                getData
+                                                (7,()=>
+                                                      {
+                                                        getData
+                                                        (8,()=>
+                                                              {
+                                                                getData
+                                                                (9,()=>
+                                                                      {
+                                                                        getData
+                                                                        (10);
+                                                                      });
+                                                              });
+                                                      });
+                                              });
+                                      });
+                              });
+                      });
+              });
+      });

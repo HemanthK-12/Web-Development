@@ -1,5 +1,2 @@
-let div=document.querySelector("div");
-
-let class_=div.getAttribute("class");
-
-div.setAttribute("class","new-class");
+document.querySelector("div").style.color="darkgreen";
+document.querySelector("div").style.backgroundColor="brown";

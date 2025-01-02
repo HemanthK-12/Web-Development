@@ -1,0 +1,30 @@
+.flex{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    font-weight: 600;
+    font-size: xx-large;
+}
+.button{
+    border-radius:25px ;
+    color:black;
+    background-color: white;
+    padding: 15px 30px;
+    border:none;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.vertical{
+    background-color: #1DD391;
+    padding:160px 90px;
+    border-radius: 10px;
+}
+.text{
+    font-size:smaller;
+    font-weight: 500;
+}
